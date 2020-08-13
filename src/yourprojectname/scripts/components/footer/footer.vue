@@ -21,6 +21,7 @@
             <a @click="episodes" >episodes</a>
             <a @click="contact" >contact</a>
         </div>
+        <h5>{{getYear()}} Valtech All rights reserved</h5>
       </div>
 
       <div class="background-text-footer">Subscribe</div>
@@ -48,6 +49,9 @@ export default {
     },
     contact(){
       this.$emit('contact')
+    },
+    getYear(){
+      return new Date().getFullYear();
     }
   }
 };

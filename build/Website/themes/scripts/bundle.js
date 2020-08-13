@@ -13719,7 +13719,7 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   if (!module.hot.data) {
     hotAPI.createRecord("data-v-e2e2ee8a", __vue__options__)
   } else {
-    hotAPI.reload("data-v-e2e2ee8a", __vue__options__)
+    hotAPI.rerender("data-v-e2e2ee8a", __vue__options__)
   }
 })()}
 
@@ -13783,7 +13783,7 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   if (!module.hot.data) {
     hotAPI.createRecord("data-v-5e878ed9", __vue__options__)
   } else {
-    hotAPI.reload("data-v-5e878ed9", __vue__options__)
+    hotAPI.rerender("data-v-5e878ed9", __vue__options__)
   }
 })()}
 
@@ -13813,6 +13813,9 @@ exports.default = {
     },
     contact: function contact() {
       this.$emit('contact');
+    },
+    getYear: function getYear() {
+      return new Date().getFullYear();
     }
   }
 };
@@ -13820,7 +13823,7 @@ exports.default = {
 if (module.exports.__esModule) module.exports = module.exports.default
 var __vue__options__ = (typeof module.exports === "function"? module.exports.options: module.exports)
 if (__vue__options__.functional) {console.error("[vueify] functional components are not supported and should be defined in plain js files using render functions.")}
-__vue__options__.render = function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('div',{staticClass:"footer-div"},[_c('div',{staticClass:"footer-content"},[_c('h1',{staticClass:"footer-title"},[_vm._v("Subscribe")]),_vm._v(" "),_c('hr',{staticClass:"footer-hr-2"}),_vm._v(" "),_vm._m(0),_vm._v(" "),_c('br'),_c('br'),_vm._v(" "),_c('form',{attrs:{"id":"subscribe-form"},on:{"submit":function($event){$event.preventDefault();return _vm.subscribe($event)}}},[_c('input',{attrs:{"type":"text","name":"email","placeholder":"Type your email"}}),_vm._v(" "),_c('br',{staticClass:"breakline-mobile"}),_vm._v(" "),_c('br',{staticClass:"breakline-mobile"}),_vm._v(" "),_c('button',{staticClass:"subscribe-button",attrs:{"type":"submit"}},[_vm._v("send")])]),_vm._v(" "),_c('hr',{staticClass:"footer-hr-white"}),_vm._v(" "),_c('img',{staticClass:"footer-logo",attrs:{"src":"/styles/images/logo-white.png","alt":"logo"}}),_vm._v(" "),_c('hr',{staticClass:"footer-hr"}),_vm._v(" "),_c('div',{staticClass:"footer-menu"},[_c('a',{on:{"click":_vm.home}},[_vm._v("home")]),_vm._v(" "),_c('a',{on:{"click":_vm.show}},[_vm._v("the show")]),_vm._v(" "),_c('a',{on:{"click":_vm.episodes}},[_vm._v("episodes")]),_vm._v(" "),_c('a',{on:{"click":_vm.contact}},[_vm._v("contact")])])]),_vm._v(" "),_c('div',{staticClass:"background-text-footer"},[_vm._v("Subscribe")])])])}
+__vue__options__.render = function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('div',{staticClass:"footer-div"},[_c('div',{staticClass:"footer-content"},[_c('h1',{staticClass:"footer-title"},[_vm._v("Subscribe")]),_vm._v(" "),_c('hr',{staticClass:"footer-hr-2"}),_vm._v(" "),_vm._m(0),_vm._v(" "),_c('br'),_c('br'),_vm._v(" "),_c('form',{attrs:{"id":"subscribe-form"},on:{"submit":function($event){$event.preventDefault();return _vm.subscribe($event)}}},[_c('input',{attrs:{"type":"text","name":"email","placeholder":"Type your email"}}),_vm._v(" "),_c('br',{staticClass:"breakline-mobile"}),_vm._v(" "),_c('br',{staticClass:"breakline-mobile"}),_vm._v(" "),_c('button',{staticClass:"subscribe-button",attrs:{"type":"submit"}},[_vm._v("send")])]),_vm._v(" "),_c('hr',{staticClass:"footer-hr-white"}),_vm._v(" "),_c('img',{staticClass:"footer-logo",attrs:{"src":"/styles/images/logo-white.png","alt":"logo"}}),_vm._v(" "),_c('hr',{staticClass:"footer-hr"}),_vm._v(" "),_c('div',{staticClass:"footer-menu"},[_c('a',{on:{"click":_vm.home}},[_vm._v("home")]),_vm._v(" "),_c('a',{on:{"click":_vm.show}},[_vm._v("the show")]),_vm._v(" "),_c('a',{on:{"click":_vm.episodes}},[_vm._v("episodes")]),_vm._v(" "),_c('a',{on:{"click":_vm.contact}},[_vm._v("contact")])]),_vm._v(" "),_c('h5',[_vm._v(_vm._s(_vm.getYear())+" Valtech All rights reserved")])]),_vm._v(" "),_c('div',{staticClass:"background-text-footer"},[_vm._v("Subscribe")])])])}
 __vue__options__.staticRenderFns = [function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('h4',{staticClass:"footer-text"},[_vm._v("Subscribe to our newsletter, to be always aware of our company events."),_c('br'),_vm._v("We build the most powerful and flexible tools for internet commerce.")])}]
 if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   hotAPI.install(require("vue"), true)
@@ -13879,7 +13882,7 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   if (!module.hot.data) {
     hotAPI.createRecord("data-v-6392e9ce", __vue__options__)
   } else {
-    hotAPI.reload("data-v-6392e9ce", __vue__options__)
+    hotAPI.rerender("data-v-6392e9ce", __vue__options__)
   }
 })()}
 
@@ -13959,7 +13962,7 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   if (!module.hot.data) {
     hotAPI.createRecord("data-v-3e0da699", __vue__options__)
   } else {
-    hotAPI.reload("data-v-3e0da699", __vue__options__)
+    hotAPI.rerender("data-v-3e0da699", __vue__options__)
   }
 })()}
 
@@ -13986,7 +13989,7 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   if (!module.hot.data) {
     hotAPI.createRecord("data-v-21deaeb9", __vue__options__)
   } else {
-    hotAPI.reload("data-v-21deaeb9", __vue__options__)
+    hotAPI.rerender("data-v-21deaeb9", __vue__options__)
   }
 })()}
 
