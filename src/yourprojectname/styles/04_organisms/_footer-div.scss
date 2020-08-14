@@ -1,0 +1,171 @@
+h5{
+   margin-top: 100px;
+   font-weight: lighter;
+   font-size: 0.8rem;
+}
+
+
+ .footer-div {
+   height: 100%;
+   position: relative;
+   justify-content: center;
+   background-color: rgb(14, 14, 14);
+   color: white;
+   padding: 40px 40px 40px 40px;
+   overflow: hidden;
+   padding-top: 100px;
+ }
+ .footer-hr{
+    width: 70px;
+    height: 1.3px;
+ }
+ .footer-hr-2{
+   width: 280px;
+   height: 2px;
+}
+ .footer-hr-white{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 60%;
+    background-color: white;
+    height: 0.09px;
+    opacity: 0.3;
+ }
+ .footer-content {
+    position: relative;
+    font-family: $font-regular;
+    color: white;
+    text-align: center;
+    margin: 0.625rem;
+    z-index: 5;
+ }
+ .footer-menu{
+   margin-top: 30px;
+   color: white;
+
+   a{
+      text-decoration: none;
+      font-family: $font-regular;
+      letter-spacing: 2px;
+      font-size: 0.8rem;
+      font-weight: bold;
+      color: white;
+      text-transform: uppercase;
+      margin-left: 10px;
+      margin-right: 10px;
+      cursor: pointer;
+  }
+
+  a:hover{
+   text-decoration: underline;
+   color: white;
+   }
+}
+ .footer-title {
+    font-size: 4rem;
+    font-weight: bolder;
+    padding-top: 100px;
+    margin-bottom: 0;
+    letter-spacing: -2px;
+ }
+ .footer-text{
+   font-weight: 100;
+   padding-top: 10px;
+   margin-bottom: 0;
+   text-align: center;
+   margin: 0 200px 0 200px;
+ }
+ .footer-logo{
+  width: 100px;
+  margin-bottom: 0;
+ }
+ .footer-subtitle {
+    font-size: 3rem;
+    font-weight: lighter;
+    margin-top: 1rem;
+ }
+ .footer-button {
+    background-color: black;
+    border-color: black;
+    color: white;
+    padding: 0.9375rem1.875rem;
+    width: 75%;
+    height: 60px;
+    font-family: $font-regular;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+ }
+ .footer-button:hover {
+    background-color: rgb(20, 20, 20);
+ }
+
+ .background-text-footer{
+   position: absolute;
+   text-align: center;
+   height: 150px;
+   left: 10%;
+   top: 100px;
+   font-size: 13rem;
+   font-weight: bolder;
+   z-index: 1;
+   opacity: 0.05;
+   color: white;
+   letter-spacing: -15px;
+ }
+
+ input[type=text] {
+   width: 300px;
+   height: 20px;
+   border-left: 2px;
+   border-radius: 4px;
+   font-size: 12px;
+   background-image: url(images/mail.png);
+   background-position: 10px 13px; 
+   background-repeat: no-repeat;
+   padding: 12px 20px 12px 40px;
+ }
+
+ .subscribe-button{
+   border-right: 2px;
+   border-radius: 4px;
+   background-color: rgb(0, 195, 255);
+   border-color: rgb(0, 195, 255);
+   color: black;
+   margin-left: -85px;
+   padding: 10px 21px 14px 21px;
+   font-family: $font-regular;
+   font-weight: bold;
+   cursor: pointer;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+ }
+
+ .breakline-mobile{
+    display: none;
+ }
+
+ @media only screen and (max-width: 768px) {
+   .footer-text{
+      padding-top: 10px;
+      text-align: justify;
+      margin: 0 50px 0 50px;
+   }
+
+   .background-text-footer{
+      left: 5%;
+      top: 180px;
+      font-size: 7rem;
+    }
+
+    .subscribe-button{
+      margin-left: 0;
+      padding: 10px 160px 14px 160px;
+    }
+
+    .breakline-mobile{
+      display: block;
+   }
+ }
